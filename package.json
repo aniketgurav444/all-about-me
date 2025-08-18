@@ -1,0 +1,34 @@
+{
+  "name": "aniketgurav444",
+  "version": "1.0.0",
+  "description": "A personal npm card for Aniket Gurav (@aniketgurav444)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=16",
+    "npm": ">=8",
+    "yarn": ">=1"
+  },
+  "bin": {
+    "aniketgurav444": "index.js"
+  },
+  "keywords": [
+    "npm",
+    "npx",
+    "node",
+    "javascript",
+    "npx card"
+  ],
+  "author": "Aniket Gurav <aniketgurav3398@gmail.com> (https://aniketgurav444.github.io/all-about-me/)",
+  "license": "MIT",
+  "dependencies": {
+    "boxen": "5.1.2",
+    "chalk": "4.1.2",
+    "clear": "^0.1.0",
+    "inquirer": "8.2.0",
+    "open": "^8.4.0"
+  },
+  "repository": "https://github.com/aniketgurav444/aniketgurav444.git"
+}
