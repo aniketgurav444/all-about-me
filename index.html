@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -8,43 +8,49 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
 </head>
 <body>
-
-  <nav class="nav">
-    <div class="container nav__container">
-      <a href="index.html" class="logo">Aniket Gurav</a>
-      <ul class="nav__links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="resume.html">Resume</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-      </ul>
-    </div>
-  </nav>
-
-<header class="hero">
-  <div class="container hero__container">
-    <img src="assets/aniket.jpg" alt="Aniket Gurav" class="hero__avatar" onerror="this.style.display='none'">
-    <div class="hero__content">
-      <h1 class="hero__title">Hi, I'm <span>Aniket Gurav</span></h1>
-      <p class="hero__tagline">DevOps & Cloud Engineer • Azure • Kubernetes • Terraform • ADF • Databricks</p>
-      <ul class="hero__meta">
-        <li><strong>Email:</strong> <a href="mailto:aniketgurav3398@gmail.com">aniketgurav3398@gmail.com</a></li>
-        <li><strong>Location:</strong> Mumbai, India</li>
-      </ul>
-      <div class="hero__actions">
-        <a class="btn" href="assets/CV.pdf" download>Download CV</a>
-        <a class="btn btn--ghost" href="portfolio.html">View Portfolio</a>
+  <main class="container">
+    <header class="header">
+      <div class="photo">
+        <!-- Inline SVG profile placeholder -->
+        <img src="assets/profile.svg" alt="Aniket Gurav" />
       </div>
-    </div>
-  </div>
-</header>
+      <div class="info">
+        <h1>Aniket <span class="light">Gurav</span></h1>
+        <div class="role">DevOps | Cloud Engineer | Data Engineer</div>
+        <ul class="contacts">
+          <li>Email: <a href="mailto:aniketgurav3398@gmail.com">aniketgurav3398@gmail.com</a></li>
+          <li>Phone: <a href="tel:+919769782086">+91 97697 82086</a>, <a href="tel:+918928371708">+91 89283 71708</a></li>
+          <li>Location: Mumbai, IN</li>
+          <li>LinkedIn: <a href="https://www.linkedin.com/in/aniket-gurav-5b0368153/" target="_blank">/aniket-gurav-5b0368153</a></li>
+          <li>GitHub: <a href="https://aniketgurav444.github.io/all-about-me/" target="_blank">aniketgurav444</a></li>
+        </ul>
+        <p class="download"><a href="assets/CV.pdf" download>Download CV (placeholder)</a></p>
+      </div>
+    </header>
 
-  <footer class="footer">
-    <div class="container">
-      <p>© 2025 Aniket Gurav • Mumbai, India • <a href="mailto:aniketgurav3398@gmail.com">aniketgurav3398@gmail.com</a></p>
-    </div>
-  </footer>
-  <script src="script.js"></script>
+    <section class="about card">
+      <h2>About Me</h2>
+      <p>A DevOps & Cloud Engineer with experience in Azure, Terraform, Kubernetes, Docker, Ansible, Azure Data Factory and Databricks. I build CI/CD pipelines, infrastructure-as-code, and automate cloud deployments while focusing on reliability and security.</p>
+    </section>
 
+    <section class="skills card">
+      <h2>What I'm Doing</h2>
+      <div class="grid">
+        <div class="item"><strong>DevOps</strong><p>CI/CD, pipelines, automation, GitOps</p></div>
+        <div class="item"><strong>Cloud</strong><p>Azure (AKS, ADF, Databricks), VNet, IAM</p></div>
+        <div class="item"><strong>Infrastructure as Code</strong><p>Terraform, ARM, IaC best practices</p></div>
+        <div class="item"><strong>Containers</strong><p>Kubernetes, Docker, Helm</p></div>
+      </div>
+    </section>
+
+    <section class="clients card">
+      <h2>Clients & Projects</h2>
+      <p>Examples: Enterprise Azure migrations, multi-PR automation pipelines, Databricks ETL orchestration, AKS deployments.</p>
+    </section>
+
+    <footer class="footer">
+      <span>All systems operational</span> · <small>Built for quick editing — replace resume.pdf and profile.svg in /assets</small>
+    </footer>
+  </main>
 </body>
 </html>
